@@ -15,6 +15,7 @@ public class MyFirstTest {
         String actual = "Codeup";
 
         assertEquals(expected, actual);
+//        assertNotEquals(expected,actual);
 
 
     }
@@ -56,13 +57,13 @@ public class MyFirstTest {
 
     @Test
     public void verifyStatement(){
-String language = "PjP";
+String language = "PHP";
 //language.contains("H"); // use assertTrue for this statement
 //language.contains("J"); // use assertFalse for this statement
 
 
-      assertTrue(String.valueOf(language.contains("H")),true);
-      assertFalse(String.valueOf(language.contains("J")),false);
+      assertTrue(language.contains("H"));
+      assertFalse(language.contains("J"));
     }
 
 
