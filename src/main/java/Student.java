@@ -46,7 +46,7 @@ public class Student {
     };
     // returns the average of the students grades
     public double getGradeAverage(){
-        float sum = 0;
+        double sum = 0.0;
 
         for(int num:grades) {
             sum += num;
